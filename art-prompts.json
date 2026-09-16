@@ -1,0 +1,15 @@
+{
+  "mode": "built-in imagegen",
+  "assets": [
+    {
+      "name": "archway-hero",
+      "path": "/workspace/scratch/0cd04b5fabb6/generated_images/exec-7b0df752-475f-49d2-b6ec-e8eea5131da7.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: cinematic luxury personal networking and cybersecurity portfolio hero background, landscape 1536x1024.\nPrimary request: Photorealistic cinematic monumental dark stone and brushed bronze archway opening onto an ethereal sea of clouds with a luminous pale gold horizon and distant misty mountain silhouettes.\nComposition/framing: Symmetrical deep perspective, wide premium architectural photography, vast scale; generous center and left negative space suitable for a huge white serif headline added later. Dark foreground framing occupies substantial edges; luminous horizon is restrained in brightness.\nLighting/mood: Navy shadows and warm gold highlights, mysterious, quietly luxurious.\nMaterials: tactile dark stone, brushed bronze, subtle natural imperfections, convincing physical lighting.\nConstraints: no people, no text, no logos, no UI, no watermark. Original full-bleed background asset, not a website mockup."
+    },
+    {
+      "name": "server-hall",
+      "path": "/workspace/scratch/0cd04b5fabb6/generated_images/exec-16fc30f3-c042-4479-b7b2-73a7f3f6fed7.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: cinematic luxury personal networking and cybersecurity portfolio section background, landscape 1536x1024.\nPrimary request: Photorealistic cinematic server-hall architecture, towering black metallic server racks with tiny muted amber status lights, a central long corridor and an illuminated circular doorway at the far end.\nComposition/framing: Symmetrical central deep perspective, wide framing, luxurious architectural photography. Usable dark negative space for white text added later. Monumental architecture, restrained detail and exquisite physical materials.\nLighting/mood: deep midnight blue shadows and brass warm light, mysterious and quietly luxurious, controlled warm illumination around circular distant doorway.\nConstraints: no text, no logos, no people, no UI, no watermark. Original full-bleed background asset, not a website mockup."
+    }
+  ]
+}
