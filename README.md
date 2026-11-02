@@ -1,6 +1,6 @@
-# Bisheswar — Cinematic Portfolio
+# Bisheswar — Interactive Portfolio
 
-A complete, editable HTML/CSS/JavaScript portfolio inspired by the supplied MAHAL video: dark architecture, gold light, large serif typography, a short opening reveal, full-screen scenes, subtle parallax, and scroll reveals.
+A complete, editable HTML/CSS/JavaScript portfolio inspired by the supplied reference site: a dark grid canvas, pill navigation, colorful skill cards, an interactive profile card, project tiles, and a floating quick-navigation dock.
 
 ## Open on your Windows D: drive
 
@@ -17,8 +17,8 @@ A complete, editable HTML/CSS/JavaScript portfolio inspired by the supplied MAHA
 ## Files in the download
 
 - `index.html`: all visible text, navigation, project links, and page metadata.
-- `style.css`: colours, typography, spacing, responsive layouts, and animations.
-- `script.js`: mobile menu, scroll state, subtle hero parallax, section reveals, current section, and footer year.
+- `style.css`: colours, typography, spacing, responsive layouts, cards, dock, and animations.
+- `script.js`: mobile menu, active-section navigation, section reveals, reduced-motion handling, and footer year.
 - `assets/images/threshold.webp`: original architectural hero artwork.
 - `assets/images/network-hall.webp`: original architectural server-hall artwork.
 - `assets/images/profile.jpg`: your existing portfolio portrait.
@@ -37,13 +37,17 @@ Search `index.html` for the text or link to update. Contact email is `bisheswarb
 
 To change the portrait, replace `assets/images/profile.jpg`, keeping the same filename. To update the résumé, replace `assets/resume/Bisheswar-CV.pdf`. To change the background images, replace the corresponding WebP files or update the `src` references and hero preload in `index.html` together.
 
-Colours are defined at the start of `style.css`. Main sections are `home`, `work`, `about`, `expertise`, and `contact`. Project links point to real repositories. The copy describes learning and hands-on projects without claiming professional experience, certifications, security guarantees, or measured performance gains.
+Colours are defined at the start of `style.css`. Main sections are `home`, `about`, `expertise`, `cyber-lab`, `work`, `certificates`, `education`, `experience`, and `contact`. Project links point to real repositories. The copy describes learning and hands-on projects without claiming professional experience, certifications, security guarantees, or measured performance gains.
+
+The `cyber-lab` section contains CSS-based 3D/animated tool visualization and grouped networking, cybersecurity, defensive monitoring, incident response, cloud, platform, and coding tools. The three placeholder cards in `certificates` are ready to duplicate: replace the title, issuer/date text, and card action with your certificate PDF or verification URL.
+
+The background also includes a visual-only simulated incident-response layer: terminal streams, packet traces, alert telemetry, scanlines, and mitigation status. It does not generate traffic, perform scans, or connect to any security system.
 
 ## Behaviour
 
 - The brief opening animation dismisses itself; it never waits on network requests.
-- Desktop hero parallax follows page scrolling. Small screens use a simpler static image.
-- Text and project sections reveal on entry into the viewport.
+- The page uses a responsive grid layout with a profile card, skill cards, project cards, and a bottom quick-navigation dock.
+- Text and cards reveal on entry into the viewport.
 - Reduced-motion preferences disable opening/reveal/parallax motion and smooth scrolling.
 - Navigation works with keyboard and touch. The mobile menu closes on Escape, outside click, or link selection.
 - Content and links remain available without JavaScript.

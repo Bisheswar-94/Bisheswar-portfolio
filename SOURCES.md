@@ -23,7 +23,7 @@ Repository names, URLs, and descriptions were verified against the public GitHub
 
 ## Assets
 
-- Portrait source: https://raw.githubusercontent.com/Bisheswar-94/CyberSecurity-PortfolioV2.0/main/assets/images/profile.jpg (resized/compressed for delivery).
+- Portrait source: https://avatars.githubusercontent.com/u/188848882?v=4 (downloaded from the user's public GitHub profile and stored locally as `assets/images/profile.jpg`).
 - Résumé source: https://raw.githubusercontent.com/Bisheswar-94/CyberSecurity-PortfolioV2.0/main/assets/resume/BISHESWAR_CV.pdf (copied unchanged).
 - `threshold.webp` and `network-hall.webp`: original AI-generated architectural artwork, created with the built-in image-generation tool for this project and encoded as WebP. These are atmospheric illustrations, not photographs of the user's facilities or project screenshots. Prompts are in `art-prompts.json`.
 - Fonts: system Georgia and Arial/Helvetica fallbacks. No font network requests.
